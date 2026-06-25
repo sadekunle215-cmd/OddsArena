@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "env": {
+    "VITE_TXLINE_JWT": "@txline_jwt",
+    "VITE_TXLINE_API_TOKEN": "@txline_api_token"
+  }
+}
